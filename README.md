@@ -1,6 +1,6 @@
 # Julian Grey Ravenscroft
 
-**Cybersecurity | Intelligence Engineering | FPGA and Embedded Systems | Critical Systems | Quantitative Computing**
+**Cybersecurity, Intelligence Engineering, FPGA and Embedded Systems, Critical Systems and Quantitative Computing**
 
 I am developing an engineering portfolio across software security, digital hardware, embedded computing, intelligence analysis and performance-critical systems.
 
