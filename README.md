@@ -6,6 +6,7 @@ I am developing an engineering portfolio across software security, digital hardw
 
 My background is in electrical and electronic technology. I am extending that foundation into computer architecture, FPGA design, low-level programming, operating systems, defensive security and the verification of complex systems.
 
+
 The problems that interest me involve constrained resources, incomplete information, difficult failure modes and consequences that extend beyond a single software component. I aim to understand systems at the level where their behavior can be explained, measured and improved.
 
 This repository documents technical development and independent research. Interests and planned work are identified as such. Claims of capability will be supported by implementations, experimental records and reproducible results.
