@@ -4,6 +4,7 @@
 
 <p><strong>CRYPTO & BLOCKCHAIN · QUANTITATIVE FINANCE · PRIVATE EQUITY</strong></p>
 <p><strong>MINING INFRASTRUCTURE · FINANCIAL CYBERSECURITY · FPGA ENGINEERING</strong></p>
+<p><strong>REVERSE ENGINEERING · MALWARE ANALYSIS · CRYPTO INTELLIGENCE</strong></p>
 
 <p>Independent research across digital assets, financial markets, private capital and secure computational infrastructure.</p>
 
@@ -13,7 +14,7 @@
 
 ---
 
-I study the systems through which capital moves and digital value is created, traded, secured and financed. That work sits at the intersection of financial mathematics, software, market structure, cryptographic protocols and physical computing infrastructure.
+I study the systems through which capital moves and digital value is created, traded, secured and financed. That work sits at the intersection of financial mathematics, software, market structure, cryptographic protocols and physical computing infrastructure. Reverse engineering and malware research provide a way to investigate how these systems behave when source code, documentation or trust assumptions are incomplete.
 
 My focus is on understanding mechanisms rather than relying on narratives: what establishes ownership, what produces liquidity, where risk accumulates, how capital is allocated, and which engineering decisions determine reliability and cost.
 
@@ -29,6 +30,8 @@ The common standard is **disciplined analysis supported by reproducible evidence
 | **Private Equity & Capital Allocation** | Investment underwriting, business valuation, due diligence, capital structure, private markets and operating performance |
 | **Cryptocurrency Mining** | Proof of work, ASIC systems, mining protocols, telemetry, energy economics and infrastructure reliability |
 | **Financial Cybersecurity & Intelligence** | Wallet and custody security, smart-contract risk, fraud analysis, on-chain investigations and financial threat intelligence |
+| **Reverse Engineering** | Native binary analysis, disassembly, debugging, smart-contract bytecode, firmware inspection and protocol behavior |
+| **Malware Analysis & Threat Research** | Financial malware, wallet stealers, cryptojacking, ransomware analysis, forensic artifacts and detection engineering |
 | **FPGA & Specialized Computing** | RTL design, cryptographic acceleration, network processing, hardware verification and low-latency financial data paths |
 
 ## Digital assets & blockchain
@@ -72,7 +75,7 @@ This is an investment research direction, not a claim of an existing fund, execu
 
 Mining is a capital-intensive computing business. Its viability depends on protocol correctness, energy pricing, hardware performance, operational discipline and the economics of network participation.
 
-My technical interests cover **SHA-256 and proof of work, ASIC architecture, pool and miner protocols, firmware integrity, fleet telemetry, failure analysis, device aging, power delivery, cooling, performance-per-watt and infrastructure observability**.
+My technical interests cover **SHA-256 and proof of work, ASIC architecture, pool and miner protocols, firmware integrity, fleet telemetry, failure analysis, device aging, power delivery, cooling, performance-per-watt and infrastructure observability**. Firmware reverse engineering also matters for understanding undocumented device behavior, update mechanisms and trust boundaries.
 
 The financial questions are equally important: acquisition cost, capacity utilization, power contracts, operating expenditure, depreciation, network difficulty, transaction fees, treasury policy and scenario-based investment returns.
 
@@ -90,8 +93,31 @@ Security research is concentrated on financial systems, cryptocurrency infrastru
 | **Fraud & on-chain intelligence** | Transaction tracing, suspicious flows, entity correlation, attribution limits and evidence provenance |
 | **Threat intelligence** | Adversary behavior, infrastructure indicators, detection logic, confidence and analytical reporting |
 | **Mining security** | Firmware provenance, management access, device identity, pool connectivity and telemetry integrity |
+| **Malware intelligence** | Wallet-targeting malware, credential theft, unauthorized mining, malicious extensions and defensive detection |
+| **Binary & firmware assurance** | Executable behavior, third-party component trust, update integrity and undocumented interfaces |
 
 An observed pattern is not proof of intent or identity. Findings must distinguish evidence from inference, especially when financial or reputational consequences are involved.
+
+## Reverse engineering & malware analysis
+
+Reverse engineering is a method of establishing what software or firmware actually does, particularly when an implementation is opaque, a component is untrusted or an incident has left incomplete evidence.
+
+My research direction covers executable formats, disassembly, assembly-level reasoning, static and dynamic analysis, debugging, memory and process behavior, protocol reconstruction, and firmware inspection. In blockchain systems, this extends to smart-contract bytecode, deployed-contract behavior and the distinction between verified source and execution semantics.
+
+**Malware research is focused on threats to financial and crypto infrastructure.**
+
+| Research area | Questions under investigation |
+| :--- | :--- |
+| **Wallet-targeting malware** | How are credentials, signing flows, browser sessions and custody boundaries put at risk? |
+| **Financial malware & ransomware** | What behavior can be established from binaries, system artifacts and controlled execution? |
+| **Cryptojacking & malicious miners** | How can unauthorized computation, persistence, resource abuse and suspicious network activity be identified? |
+| **Malicious extensions & supply chains** | Where can dependency trust, update channels or browser integrations expose financial systems? |
+| **Firmware & embedded analysis** | What do boot paths, update formats, device services and mining firmware reveal about integrity and exposure? |
+| **Detection & forensics** | Which file, memory, process and network artifacts support reliable YARA/Sigma rules and reproducible findings? |
+
+The analysis process is evidence-led: establish provenance, isolate samples, document behavior, compare competing explanations and validate detections against known limitations. An indicator is not attribution, and an unfamiliar binary is not automatically malicious.
+
+Malware handling and reverse engineering are confined to lawful, owned or authorized research and isolated laboratory environments. The purpose is defensive understanding and verification, not operational misuse.
 
 ## FPGA engineering for financial & cryptographic systems
 
@@ -110,7 +136,7 @@ A hardware design earns its place through **correctness, timing closure, measure
 | **Define** | State the economic or technical problem, assumptions and acceptance criteria |
 | **Model** | Identify data sources, protocols, capital flows, system boundaries and failure modes |
 | **Implement** | Produce inspectable models, code, analysis or hardware designs |
-| **Verify** | Test negative cases, validate datasets and challenge important assumptions |
+| **Verify** | Test negative cases, validate datasets, inspect binary behavior and challenge important assumptions |
 | **Measure** | Report costs, latency, power, sensitivity, uncertainty or risk-adjusted outcomes |
 | **Disclose** | Separate research, prototypes, simulations, tested results and operational claims |
 
